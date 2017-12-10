@@ -4,12 +4,13 @@ import java.util.Random;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.springframework.stereotype.Controller;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.wakaleo.gameoflife.domain.Universe;
+import org.springframework.stereotype.Controller;
 
  /**
  * Wakaleo Consulting - John Ferguson Smart
