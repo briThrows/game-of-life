@@ -2,6 +2,8 @@ package com.wakaleo.gameoflife.domain;
 
 import static com.wakaleo.gameoflife.domain.Cell.DEAD_CELL;
 import static com.wakaleo.gameoflife.domain.Cell.LIVE_CELL;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
  /**
  * Wakaleo Consulting - John Ferguson Smart
@@ -127,4 +129,6 @@ public class Grid {
         }
         return contentCopy;
     }
+    
+    
 }
